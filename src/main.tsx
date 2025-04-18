@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import iconBooks from '/public/icon-books.svg'
 import './index.css'
 
 interface Props {
@@ -54,7 +55,7 @@ function App() {
       }}
     >
       <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-        <img src="icon-books.svg" alt="Books icon" style={{ width: '2em', height: '2em' }} />
+        <img src={iconBooks} alt="Books icon" style={{ width: '2em', height: '2em' }} />
         School Term Progress
       </h1>
       <ProgressBar progress={progress} />
