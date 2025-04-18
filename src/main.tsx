@@ -54,7 +54,7 @@ function App() {
       }}
     >
       <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-        <img src="/icon-books.svg" alt="Books icon" style={{ width: '2em', height: '2em' }} />
+        <img src="icon-books.svg" alt="Books icon" style={{ width: '2em', height: '2em' }} />
         School Term Progress
       </h1>
       <ProgressBar progress={progress} />
