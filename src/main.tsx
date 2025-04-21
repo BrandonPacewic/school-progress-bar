@@ -22,7 +22,7 @@ const ProgressBar: React.FC<Props> = ({ progress }) => (
 );
 
 const start = new Date('2025-03-31');
-const end = new Date('2025-05-13');
+const end = new Date('2025-06-13');
 
 function calculateProgress(start: Date, end: Date): number {
   const now = new Date();
